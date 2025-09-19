@@ -4,7 +4,8 @@ import os
 data = {
     'Name': ['Alice', 'Bob', 'Charlie'],
     'Age': [25, 30, 35],
-    'City': ['New York', 'Los Angeles', 'Chicago']
+    'City': ['New York', 'Los Angeles', 'Chicago'],
+    "Occupation": ['Engineer', 'Doctor', 'Artist']
 }
 
 df = pd.DataFrame(data)
